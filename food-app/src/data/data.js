@@ -1,132 +1,80 @@
 export const data = [
     {
       id: 1,
-      name: 'Double Cheeseburger',
+      name: 'Boka Bay',
       category: 'burger',
-      image:
-        'https://images.unsplash.com/photo-1607013251379-e6eecfffe234?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YnVyZ2Vyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60',
-      price: '$$$$',
+      image: 'https://www.shoreexcursionsgroup.com/img/tour/EUKOBOKA-2.jpg',
+      price: '40 €',
     },
     {
       id: 2,
-      name: 'Bacon Cheeseburger',
+      name: 'Rafting',
       category: 'burger',
-      image:
-        'https://images.unsplash.com/photo-1553979459-d2229ba7433b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGJ1cmdlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60',
-      price: '$',
+      image:'https://adrenalinetara.com/wp-content/uploads/2022/03/1647172204027.jpg',
+      price: '70 €',
     },
     {
       id: 3,
-      name: 'Mushroom Burger',
+      name: 'Albania',
       category: 'burger',
-      image:
-        'https://images.unsplash.com/photo-1608767221051-2b9d18f35a2f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGJ1cmdlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60',
-      price: '$$',
+      image: 'https://static.holidu.com/cms/4241/l/1482.jpg',
+      price: '50 €',
     },
     {
       id: 4,
-      name: 'Loaded Burger',
+      name: 'Lake Skadar',
       category: 'burger',
       image:
-        'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YnVyZ2Vyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60',
-      price: '$$$',
-    },
+        'https://images.musement.com/cover/0156/07/thumb_15506838_cover_header.jpg',
+        price: '50 €',
+      },
     {
       id: 5,
-      name: 'Feta & Spinnach',
+      name: 'Evening Boka',
       category: 'pizza',
-      image:
-        'https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cGl6emF8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
-      price: '$$',
-    },
+      image: 'https://images.unsplash.com/photo-1586515779592-d94f096e4c41?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      price: '35 €',
+      },
     {
       id: 6,
-      name: 'Supreme Pizza',
+      name: 'Mini Montenegro',
       category: 'pizza',
       image:
-        'https://images.unsplash.com/photo-1604382355076-af4b0eb60143?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cGl6emF8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
-      price: '$$$',
-    },
+        'https://images.unsplash.com/photo-1671482699069-f5c80563d5d6?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        price: '40 €',
+      },
     {
       id: 7,
-      name: 'Meat Lovers',
+      name: 'Bosnia-Trebinje',
       category: 'pizza',
       image:
-        'https://images.unsplash.com/photo-1628840042765-356cda07504e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60',
-      price: '$$$$',
-    },
+        'https://images.unsplash.com/photo-1628772311249-7ebcc91faf97?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        price: '50 €',
+      },
     {
       id: 8,
-      name: 'Cheese Pizza',
+      name: 'Ostrog',
       category: 'pizza',
       image:
-        'https://images.unsplash.com/photo-1548369937-47519962c11a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2hlZXNlJTIwcGl6emF8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
-      price: '$',
-    },
+        'https://putovanjeostrog.com/images/intro-bg.jpg',
+        price: '35 €',
+      },
     {
       id: 9,
-      name: 'Kale Salad',
+      name: 'Canyons',
       category: 'salad',
       image:
-        'https://images.unsplash.com/photo-1515543237350-b3eea1ec8082?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2FsYWQlMjBjZWFzYXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
-      price: '$$',
-    },
+        'https://plus.unsplash.com/premium_photo-1719850361402-9acaf577cbe8?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        price: '50 €',
+      },
     {
       id: 10,
-      name: 'Ceasar Salad',
+      name: 'Dubrovnik',
       category: 'salad',
       image:
-        'https://images.unsplash.com/photo-1546793665-c74683f339c1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c2FsYWQlMjBjZWFzYXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
-      price: '$$$',
-    },
-    {
-      id: 11,
-      name: 'Loaded Salad',
-      category: 'salad',
-      image:
-        'https://images.unsplash.com/photo-1540420773420-3366772f4999?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2FsYWR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
-      price: '$$$$',
-    },
-    {
-      id: 12,
-      name: 'Fruit Salad',
-      category: 'salad',
-      image:
-        'https://images.unsplash.com/photo-1564093497595-593b96d80180?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZnJ1aXQlMjBzYWxhZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60',
-      price: '$',
-    },
-    {
-      id: 13,
-      name: 'Wings',
-      category: 'chicken',
-      image:
-        'https://images.unsplash.com/photo-1567620832903-9fc6debc209f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2hpY2tlbiUyMGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
-      price: '$$',
-    },
-    {
-      id: 14,
-      name: 'Baked Chicken',
-      category: 'chicken',
-      image:
-        'https://images.unsplash.com/photo-1594221708779-94832f4320d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y2hpY2tlbiUyMGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
-      price: '$$$$',
-    },
-    {
-      id: 15,
-      name: 'Chicken Tenders',
-      category: 'chicken',
-      image:
-        'https://images.unsplash.com/photo-1562967914-608f82629710?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNoaWNrZW4lMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60',
-      price: '$',
-    },
-    {
-      id: 16,
-      name: 'Chicken Kabob',
-      category: 'chicken',
-      image:
-        'https://images.unsplash.com/photo-1603360946369-dc9bb6258143?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGNoaWNrZW4lMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60',
-      price: '$$$',
-    },
+        'https://images.unsplash.com/photo-1626699748984-47d6942751ca?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        price: '50 €',
+      }
   ];
   
   export const categories = [

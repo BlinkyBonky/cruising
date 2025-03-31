@@ -12,9 +12,7 @@ function App() {
     <div>
       <Navbar />
         <Hero />
-        <HeadlineCards />
         <Food />
-        <Category />
     </div>
   )
 }

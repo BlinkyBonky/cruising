@@ -26,13 +26,13 @@ const Food = () => {
   return (
     <div className='max-w-[1640px] m-auto px-4 py-12'>
       <h1 className='text-orange-600 font-bold text-4xl text-center'>
-        Top Rated Menu Items
+        Excursions
       </h1>
 
       {/* Filter Row */}
       <div className='flex flex-col lg:flex-row justify-between'>
-        {/* Fliter Type */}
-        <div>
+         {/* Fliter Type  */}
+        {/* <div>
           <p className='font-bold text-gray-700'>Filter Type</p>
           <div className='flex justfiy-between flex-wrap'>
             <button
@@ -66,10 +66,10 @@ const Food = () => {
               Chicken
             </button>
           </div>
-        </div>
+        </div> */}
 
         {/* Filter Price */}
-        <div>
+        {/* <div>
           <p className='font-bold text-gray-700'>Filter Price</p>
           <div className='flex justify-between max-w-[390px] w-full'>
             <button
@@ -97,7 +97,7 @@ const Food = () => {
               $$$$
             </button>
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* Display foods */}
