@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import { data } from '../data/data.js';
+import { Link } from 'react-router-dom';
 
-const Food = () => {
+const Excursions = () => {
   //   console.log(data);
-  const [foods, setFoods] = useState(data);
+  const [excursions, setExcursions] = useState(data);
 
   //   Filter Type burgers/pizza/etc
   const filterType = (category) => {
-    setFoods(
+    setExcursions(
       data.filter((item) => {
         return item.category === category;
       })
@@ -16,7 +17,7 @@ const Food = () => {
 
   //   Filter by price
   const filterPrice = (price) => {
-    setFoods(
+    setExcursions(
       data.filter((item) => {
         return item.price === price;
       })
@@ -101,17 +102,20 @@ const Food = () => {
       </div>
 
       {/* Display foods */}
-      <div className='grid grid-cols-2 lg:grid-cols-4 gap-6 pt-4'>
-        {foods.map((item, index) => (
+      <div className='grid grid-cols-1 lg:grid-cols-4 gap-6 pt-4 px-7'>
+        {excursions.map((item, index) => (
           <div
             key={index}
             className='border shadow-lg rounded-lg hover:scale-105 duration-300'
           >
-            <img
-              src={item.image}
-              alt={item.name}
-              className='w-full h-[200px] object-cover rounded-t-lg'
-            />
+            <Link to={`/${item.name}`}>
+              <img
+                src={item.image}
+                alt={item.name}
+                className='w-full h-[200px] object-cover rounded-t-lg'
+              />
+            </Link>
+            
             <div className='flex justify-between px-2 py-4'>
               <p className='font-bold'>{item.name}</p>
               <p>
@@ -127,4 +131,4 @@ const Food = () => {
   );
 };
 
-export default Food;
+export default Excursions;

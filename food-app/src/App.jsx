@@ -1,19 +1,29 @@
 import React from 'react'
+import { Router, Routes, Route } from "react-router-dom"
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import HeadlineCards from './components/HeadlineCards'
-import Food from './components/Food'
-import Category from './components/Category'
+import Excursions from './components/Excursions'
+import BokaBay from './pages/BokaBay'
+import Payment from './pages/Payment'
+
 import './App.css'
 
 function App() {
 
   return (
-    <div>
-      <Navbar />
-        <Hero />
-        <Food />
-    </div>
+    <>
+      <Routes>
+        <Route index element={<><Navbar />
+        <Excursions /> </>}/>
+
+        <Route path='/rafting' element={ <h1>Rafting</h1>} />
+        <Route path='/Boka Bay' element={<BokaBay />} />
+        <Route path='/:id/payment' element={<Payment />}></Route>
+      </Routes>
+      
+
+    </>
   )
 }
 
